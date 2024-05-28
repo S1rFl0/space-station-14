@@ -157,7 +157,7 @@
 - type: entity
   name: beaker
   parent: BaseBeaker
-  description: Used to contain a moderate amount of chemicals and solutions.
+  description: Used to contain a moderate amount of chemicals or solutions.
   id: Beaker
   components:
   - type: Spillable

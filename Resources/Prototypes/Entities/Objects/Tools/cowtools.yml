@@ -150,7 +150,7 @@
   name: cow toolbox
   parent: ToolboxBase
   id: CowToolbox
-  description: A weirdly shaped box, stocked with... tools?
+  description: A weirdly shaped box, usually stocked with... tools?
   components:
   - type: Sprite
     sprite: Objects/Tools/Cowtools/cow_toolbox.rsi

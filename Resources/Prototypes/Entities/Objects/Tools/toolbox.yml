@@ -37,7 +37,7 @@
   name: emergency toolbox
   parent: ToolboxBase
   id: ToolboxEmergency
-  description: A bright red toolbox, stocked with emergency tools.
+  description: A bright red toolbox, usually stocked with emergency supplies.
   components:
   - type: Sprite
     sprite: Objects/Tools/Toolboxes/toolbox_red.rsi
@@ -49,7 +49,7 @@
   name: mechanical toolbox
   parent: ToolboxBase
   id: ToolboxMechanical
-  description: A blue box, stocked with mechanical tools.
+  description: A blue box, usually stocked with mechanical tools.
   components:
   - type: Sprite
     sprite: Objects/Tools/Toolboxes/toolbox_blue.rsi
@@ -61,7 +61,7 @@
   name: electrical toolbox
   parent: ToolboxBase
   id: ToolboxElectrical
-  description: A toolbox typically stocked with electrical gear.
+  description: A yellow toolbox, usually stocked with electrical tools.
   components:
   - type: Sprite
     sprite: Objects/Tools/Toolboxes/toolbox_yellow.rsi
@@ -74,7 +74,7 @@
   suffix: Syndicate, Turret
   parent: ToolboxElectrical
   id: ToolboxElectricalTurret
-  description: A toolbox typically stocked with electrical gear.
+  description: A yellow toolbox, usually stocked with electrical tools.
   components:
   - type: Damageable
     damageContainer: Inorganic
@@ -104,7 +104,7 @@
   name: artistic toolbox
   parent: ToolboxBase
   id: ToolboxArtistic
-  description: A toolbox typically stocked with artistic supplies.
+  description: A bright green toolbox usually stocked with artistic supplies.
   components:
   - type: Sprite
     sprite: Objects/Tools/Toolboxes/toolbox_green.rsi
@@ -116,7 +116,7 @@
   name: suspicious toolbox
   parent: ToolboxBase
   id: ToolboxSyndicate
-  description: A sinister looking toolbox filled with elite syndicate tools.
+  description: A sinister looking toolbox, typically filled with elite syndicate tools.
   components:
   - type: Sprite
     sprite: Objects/Tools/Toolboxes/toolbox_syn.rsi
